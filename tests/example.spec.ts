@@ -7,12 +7,23 @@ test('has title', async ({ page }) => {
   await expect(page).toHaveTitle(/Playwright/);
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test('should show message with invalid credentials', async ({ page }) => {
+  await page.goto('https://the-internet.herokuapp.com/dropdown');
 
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
+  // Enter invalid credentials.
+  await page.locator('#dropdown').selectOption({label: 'Option 1'}); 
 
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
+  await expect(page.locator('#dropdown')).toHaveValue('1');
+ 
 });
+
+test('select multiplr opption', async ({ page }) => {
+  await page.goto('https://output.jsbin.com/osebed/2');
+
+  // Enter invalid credentials.
+  await page.locator('#fruits').selectOption((['apple', 'banana']));
+
+  await expect(page.locator('#fruits > option:checked')).toHaveText(['Banana', 'Apple']);
+  //find the min value of the selected options = == ===
+});
+
