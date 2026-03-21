@@ -1,0 +1,475 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#vna-main"
+  - generic [ref=e4]:
+    - complementary [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e8]:
+          - link "biểu tượng Vietnam Airlines" [ref=e11] [cursor=pointer]:
+            - /url: /vn/vi
+            - img "biểu tượng Vietnam Airlines" [ref=e12]
+          - button "vùng thu gọn" [expanded] [ref=e14] [cursor=pointer]:
+            - img "Arrow Left" [ref=e16]
+        - generic [ref=e19]:
+          - list [ref=e23]:
+            - listitem [ref=e24]:
+              - button "Khám Phá" [ref=e25] [cursor=pointer]:
+                - generic [ref=e26]: Khám Phá
+            - listitem [ref=e27]:
+              - button "Mua vé" [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: Mua vé
+            - listitem [ref=e30]:
+              - button "Dịch vụ bổ trợ" [ref=e31] [cursor=pointer]:
+                - generic [ref=e32]: Dịch vụ bổ trợ
+            - listitem [ref=e33]:
+              - button "Hành trình" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Hành trình
+            - listitem [ref=e36]:
+              - button "Trải nghiệm bay" [ref=e37] [cursor=pointer]:
+                - generic [ref=e38]: Trải nghiệm bay
+            - listitem [ref=e39]:
+              - button "Lotusmiles" [ref=e40] [cursor=pointer]:
+                - generic [ref=e41]: Lotusmiles
+            - listitem [ref=e42]:
+              - link "Trợ giúp menu Clickable" [ref=e43] [cursor=pointer]:
+                - /url: /vn/vi/help-desk
+                - generic [ref=e44]: Trợ giúp
+          - button "Chat với NEO Clickable" [ref=e48] [cursor=pointer]:
+            - img "logobutton" [ref=e49]
+            - generic [ref=e50]: Chat với NEO
+          - generic [ref=e52]:
+            - img "Logo Login" [ref=e53]
+            - button "Đăng nhập vào tài khoản của bạn" [ref=e54] [cursor=pointer]: Đăng nhập
+            - button "Đăng ký tài khoản" [ref=e55] [cursor=pointer]: Đăng ký
+    - main [ref=e56]:
+      - generic [ref=e59]:
+        - generic [ref=e65]:
+          - generic [ref=e72]:
+            - button "Tìm kiếm" [ref=e73] [cursor=pointer]:
+              - img [ref=e74]
+            - textbox "Tìm kiếm" [ref=e77]
+          - button "flag vi" [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - img "flag" [ref=e83]
+              - generic [ref=e84]: vi
+        - generic [ref=e87]:
+          - generic [ref=e90]:
+            - group [ref=e95]:
+              - generic [ref=e96]:
+                - tabpanel "Slide 1" [ref=e97]:
+                  - generic [ref=e104]:
+                    - generic [ref=e105]: Tháng 4 - Mùa Hoa Mở Lối
+                    - generic [ref=e106]: ƯU ĐÃI ĐẾN 15%
+                    - link "Khám phá ngay" [ref=e108] [cursor=pointer]:
+                      - /url: https://www.vietnamairlines.com/vi-vn/april-offers
+                - tablist [ref=e110]:
+                  - 'tab "Slide 1: ƯU ĐÃI ĐẾN 15%, Khám phá ngay" [selected] [ref=e111] [cursor=pointer]': "01"
+                  - 'tab "Slide 2: Hà Nội- Amsterdam, Mua ngay" [ref=e112] [cursor=pointer]': "02"
+                  - 'tab "Slide 3: Ưu đãi hấp dẫn cho mọi hành trình, Khám phá ngay" [ref=e113] [cursor=pointer]': "03"
+            - generic [ref=e121]:
+              - generic [ref=e125]:
+                - tablist "Booking Tabs" [ref=e127]:
+                  - tab "Mua vé" [selected] [ref=e128] [cursor=pointer]
+                  - tab "Quản lý đặt chỗ" [ref=e129] [cursor=pointer]
+                  - tab "Làm thủ tục" [ref=e130] [cursor=pointer]
+                  - tab "Trạng thái chuyến bay" [ref=e131] [cursor=pointer]
+                  - tab "Tra cứu lịch bay" [ref=e132] [cursor=pointer]
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - generic [ref=e138]: Từ
+                    - button "Chọn điểm đi" [ref=e139] [cursor=pointer]:
+                      - generic [ref=e140]: HAN
+                      - generic [ref=e141]: Hà Nội, Việt Nam
+                  - generic [ref=e143]:
+                    - generic [ref=e145]: Đến
+                    - button "Chọn điểm đến" [ref=e146] [cursor=pointer]
+              - generic [ref=e149]:
+                - navigation [ref=e150]:
+                  - button "HÀNH LÝ TRẢ TRƯỚC" [ref=e151] [cursor=pointer]:
+                    - paragraph [ref=e153]: HÀNH LÝ TRẢ TRƯỚC
+                  - button "NÂNG HẠNG GHẾ" [ref=e154] [cursor=pointer]:
+                    - paragraph [ref=e156]: NÂNG HẠNG GHẾ
+                  - button "MUA SẮM" [ref=e157] [cursor=pointer]:
+                    - paragraph [ref=e159]: MUA SẮM
+                  - button "KHÁCH SẠN & TOUR" [ref=e160] [cursor=pointer]:
+                    - paragraph [ref=e162]: KHÁCH SẠN & TOUR
+                  - button "BẢO HIỂM" [ref=e163] [cursor=pointer]:
+                    - paragraph [ref=e165]: BẢO HIỂM
+                  - button "CÁC DỊCH VỤ KHÁC" [ref=e166] [cursor=pointer]:
+                    - paragraph [ref=e168]: CÁC DỊCH VỤ KHÁC
+                - generic [ref=e169]:
+                  - navigation:
+                    - button "MUA HÀNH LÝ TRẢ TRƯỚC":
+                      - generic:
+                        - paragraph: MUA HÀNH LÝ TRẢ TRƯỚC
+                    - button "TRA CỨU TIÊU CHUẨN HÀNH LÝ":
+                      - generic:
+                        - paragraph: TRA CỨU TIÊU CHUẨN HÀNH LÝ
+                - generic [ref=e170]:
+                  - navigation:
+                    - button "CHỌN CHỖ NGỒI":
+                      - generic:
+                        - paragraph: CHỌN CHỖ NGỒI
+                    - button "NÂNG HẠNG":
+                      - generic:
+                        - paragraph: NÂNG HẠNG
+                    - button "SKY-SOFA":
+                      - generic:
+                        - paragraph: SKY-SOFA
+                - generic [ref=e171]:
+                  - navigation:
+                    - button "GIFT VOUCHER":
+                      - generic:
+                        - paragraph: GIFT VOUCHER
+                    - button "MUA VÉ BẰNG VOUCHER":
+                      - generic:
+                        - paragraph: MUA VÉ BẰNG VOUCHER
+                    - button "LOTUSMALL":
+                      - generic:
+                        - paragraph: LOTUSMALL
+                    - button "SUẤT ĂN":
+                      - generic:
+                        - paragraph: SUẤT ĂN
+                    - button "FLY-CARD":
+                      - generic:
+                        - paragraph: FLY-CARD
+                - generic [ref=e172]:
+                  - navigation:
+                    - button "KHÁCH SẠN":
+                      - generic:
+                        - paragraph: KHÁCH SẠN
+                - generic [ref=e173]:
+                  - navigation:
+                    - button "BẢO HIỂM DU LỊCH TRIPCARE":
+                      - generic:
+                        - paragraph: BẢO HIỂM DU LỊCH TRIPCARE
+                - generic [ref=e174]:
+                  - navigation:
+                    - button "ĐẶT DỊCH VỤ ĐẶC BIỆT TRỰC TUYẾN":
+                      - generic:
+                        - paragraph: ĐẶT DỊCH VỤ ĐẶC BIỆT TRỰC TUYẾN
+                    - button "GÓI CƯỚC VIETTEL":
+                      - generic:
+                        - paragraph: GÓI CƯỚC VIETTEL
+                    - button "PHÒNG KHÁCH THƯƠNG GIA LOTUSMILES":
+                      - generic:
+                        - paragraph: PHÒNG KHÁCH THƯƠNG GIA LOTUSMILES
+          - generic [ref=e180]:
+            - generic [ref=e181]:
+              - paragraph [ref=e182]:
+                - img [ref=e183]
+              - heading "Tin nhanh" [level=5] [ref=e185]
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - link "Thông báo tạm dừng hoạt động Phòng khách Eventyr tại sân bay Copenhagen" [ref=e189] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0128-VI-tam-dung-hoat-dong-phong-khach-eventyr
+                - paragraph [ref=e190]: 2026-02-06
+              - generic [ref=e191]:
+                - link "Thông báo về việc tạm ngừng các chuyến bay do đóng cửa tạm thời Sân bay Đà Lạt" [ref=e192] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0217-CNJP-02172026
+                - paragraph [ref=e193]: 2026-03-19
+              - generic [ref=e194]:
+                - link "Vietnam Airlines chuyển nhà ga khai thác tại một số sân bay quốc tế" [ref=e195] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0317-VNA-chuyen-doi-khai-thac-mot-so-san-bay-quoc-te
+                - paragraph [ref=e196]: 2026-03-17
+              - generic [ref=e197]:
+                - link "Thông báo tạm dừng hoạt động sân bay Liên Khương" [ref=e198] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0225-tam-dung-hoat-dong-san-bay-Lien-Khuong
+                - paragraph [ref=e199]: 2026-02-26
+              - generic [ref=e200]:
+                - link "Thông báo tạm dừng hoạt động Phòng khách Eventyr tại sân bay Copenhagen" [ref=e201] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0128-VI-tam-dung-hoat-dong-phong-khach-eventyr
+                - paragraph [ref=e202]: 2026-02-06
+              - generic [ref=e203]:
+                - link "Thông báo về việc tạm ngừng các chuyến bay do đóng cửa tạm thời Sân bay Đà Lạt" [ref=e204] [cursor=pointer]:
+                  - /url: /vn/vi/vietnam-airlines/press-room/press-release/2026/0217-CNJP-02172026
+                - paragraph [ref=e205]: 2026-03-19
+            - generic [ref=e206]:
+              - paragraph [ref=e207] [cursor=pointer]:
+                - img [ref=e208]
+              - paragraph [ref=e210]: 2 / 4
+              - paragraph [ref=e211] [cursor=pointer]:
+                - img [ref=e212]
+          - generic "a" [ref=e219]:
+            - heading "Trọn vẹn trải nghiệm" [level=1] [ref=e224]
+            - generic [ref=e225]:
+              - link "Xem tất cả các dịch vụ Next Button" [ref=e227] [cursor=pointer]:
+                - /url: /vn/vi/experience/business-class.html
+                - text: Xem tất cả các dịch vụ
+                - img "Next Button" [ref=e229]
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - combobox [ref=e233]
+                  - combobox "Dịch vụ mặt đất" [ref=e236] [cursor=pointer]:
+                    - textbox "Dịch vụ mặt đất" [ref=e237]
+                - generic [ref=e238]:
+                  - combobox [ref=e239]
+                  - combobox "Thương Gia" [ref=e242] [cursor=pointer]:
+                    - textbox "Thương Gia" [ref=e243]
+            - generic [ref=e244]:
+              - heading "Thương Gia" [level=5] [ref=e246]
+              - img "VietNam Airlines" [ref=e248]
+            - generic [ref=e249]:
+              - tablist [ref=e251]:
+                - tab "Làm thủ tục Next Button" [selected] [ref=e252] [cursor=pointer]:
+                  - text: Làm thủ tục
+                  - img "Next Button" [ref=e254]
+                - tab "Hành lý Next Button" [ref=e255] [cursor=pointer]:
+                  - text: Hành lý
+                  - img "Next Button" [ref=e257]
+                - tab "Thông tin sân bay Next Button" [ref=e258] [cursor=pointer]:
+                  - text: Thông tin sân bay
+                  - img "Next Button" [ref=e260]
+                - tab "Chuẩn bị cho chuyến bay Next Button" [ref=e261] [cursor=pointer]:
+                  - text: Chuẩn bị cho chuyến bay
+                  - img "Next Button" [ref=e263]
+              - tabpanel [ref=e266]:
+                - generic [ref=e267]:
+                  - generic [ref=e268]:
+                    - img "lam-thu-tuc-truc-tuyen" [ref=e269]
+                    - link "Làm thủ tục trực tuyến Next button" [ref=e271] [cursor=pointer]:
+                      - /url: /vn/vi/travel-information/check-in/online-check-in.html
+                      - text: Làm thủ tục trực tuyến
+                      - img "Next button" [ref=e273]
+                  - generic [ref=e274]:
+                    - img "lam-thu-tuc-tai-kiosk" [ref=e275]
+                    - link "Làm thủ tục tại kiosk Next button" [ref=e277] [cursor=pointer]:
+                      - /url: /vn/vi/travel-information/check-in/kiosk-check-in.html
+                      - text: Làm thủ tục tại kiosk
+                      - img "Next button" [ref=e279]
+                  - generic [ref=e280]:
+                    - img "lam-thu-tuc-tai-san-bay" [ref=e281]
+                    - link "Làm thủ tục tại sân bay Next button" [ref=e283] [cursor=pointer]:
+                      - /url: /vn/vi/travel-information/check-in/airport-check-in.html
+                      - text: Làm thủ tục tại sân bay
+                      - img "Next button" [ref=e285]
+                - img [ref=e644] [cursor=pointer]
+          - generic [ref=e288]:
+            - generic [ref=e291]:
+              - generic [ref=e294]:
+                - heading "Lan tỏa" [level=1] [ref=e295]
+                - heading "bản sắc Việt" [level=1] [ref=e296]:
+                  - generic [ref=e297]: bản sắc Việt
+              - generic [ref=e300]:
+                - paragraph [ref=e301]: Mỗi hành trình, mỗi câu chuyện bạn kể có thể truyền cảm hứng cho hàng ngàn người yêu Việt Nam. Hãy tham gia chương trình bằng cách đăng nhập vào tài khoản Lotusmiles.
+                - paragraph [ref=e302]
+              - generic [ref=e308] [cursor=pointer]: Đăng ký hội viên
+            - generic [ref=e311]:
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e315]: Your browser does not support the video tag.
+                  - generic [ref=e316]:
+                    - generic "Mute/Unmute" [ref=e317]:
+                      - img "Mute" [ref=e318]
+                    - generic "Play/Pause" [ref=e319]:
+                      - img "Play" [ref=e320]
+                - generic [ref=e322]:
+                  - button "Previous Video" [ref=e323] [cursor=pointer]:
+                    - img [ref=e324]
+                  - button "Next Video" [ref=e326] [cursor=pointer]:
+                    - img [ref=e327]
+              - generic [ref=e334]:
+                - heading "5m+" [level=1] [ref=e335]
+                - paragraph [ref=e336]: Hơn 5.000.000 người được truyền cảm hứng
+                - heading "2100+" [level=1] [ref=e337]
+                - paragraph [ref=e338]: Hình ảnh và video gắn tag
+                - paragraph [ref=e339]: "#vandamnangniu"
+          - link "Quảng cáo thân máy bay" [ref=e345] [cursor=pointer]:
+            - /url: https://heritagevietnamairlines.com/lien-he/
+            - img "Quảng cáo thân máy bay" [ref=e346]
+          - generic [ref=e351]:
+            - generic [ref=e354]:
+              - heading "Đăng ký E-Newsletter" [level=1] [ref=e358]
+              - paragraph [ref=e362]: Đăng ký E-Newsletter để cập nhật các thông tin, ưu đãi mới nhất từ Vietnam Airlines (không bao gồm các thông tin, ưu đãi từ chương trình Bông Sen Vàng).
+            - generic [ref=e366]:
+              - generic [ref=e368]:
+                - generic [ref=e372]:
+                  - generic [ref=e373]: Email *
+                  - textbox "Email Bắt buộc" [ref=e375]:
+                    - /placeholder: Nhập email
+                - generic [ref=e380]:
+                  - generic [ref=e381]: Ngôn ngữ *
+                  - combobox [ref=e382]
+                  - combobox "Ngôn ngữ" [ref=e385] [cursor=pointer]:
+                    - textbox "Tiếng Việt" [ref=e386]
+              - generic:
+                - paragraph
+                - paragraph
+              - button "Gửi" [ref=e388] [cursor=pointer]
+        - generic [ref=e392]:
+          - generic [ref=e398]:
+            - generic [ref=e401]:
+              - generic [ref=e404]:
+                - heading "Vietnam Airlines" [level=6] [ref=e408]
+                - list [ref=e410]:
+                  - listitem [ref=e411]:
+                    - link "Giới Thiệu Công Ty" [ref=e412] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/about-us
+                  - listitem [ref=e413]:
+                    - link "Đội Bay" [ref=e414] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/our-fleets
+                  - listitem [ref=e415]:
+                    - link "Đối Tác" [ref=e416] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/subsidiaries-partners
+                  - listitem [ref=e417]:
+                    - link "Thông Tin Truyền Thông" [ref=e418] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/press-room
+                  - listitem [ref=e419]:
+                    - link "Phát Triển Bền Vững" [ref=e420] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/trach-nhiem-xa-hoi
+                  - listitem [ref=e421]:
+                    - link "Quan Hệ Cổ Đông" [ref=e422] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/investor-relations
+                  - listitem [ref=e423]:
+                    - link "Thông Tin Đấu Thầu" [ref=e424] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/procurement/information
+                  - listitem [ref=e425]:
+                    - link "Việc Làm Với Vietnam Airlines" [ref=e426] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/career-with-us
+                  - listitem [ref=e427]:
+                    - link "Hợp Tác Với Vietnam Airlines" [ref=e428] [cursor=pointer]:
+                      - /url: /vn/vi/vietnam-airlines/cooperation-with-vietnam-airlines
+              - generic [ref=e431]:
+                - heading "Hỗ Trợ" [level=6] [ref=e435]
+                - list [ref=e437]:
+                  - listitem [ref=e438]:
+                    - link "Góp Ý Dịch Vụ" [ref=e439] [cursor=pointer]:
+                      - /url: /vn/vi/support/customer-care/feedback
+                  - listitem [ref=e440]:
+                    - link "Trung tâm trợ giúp" [ref=e441] [cursor=pointer]:
+                      - /url: /vn/vi/help-desk
+                  - listitem [ref=e442]:
+                    - link "Các câu hỏi thường gặp - FAQ" [ref=e443] [cursor=pointer]:
+                      - /url: /vn/vi/support/faq
+                  - listitem [ref=e444]:
+                    - link "Liên hệ với chi nhánh của VNA" [ref=e445] [cursor=pointer]:
+                      - /url: /vn/vi/support/vietnam-branches
+                  - listitem [ref=e446]:
+                    - link "Chính Sách Bảo Vệ Hành Khách" [ref=e447] [cursor=pointer]:
+                      - /url: /vn/vi/support/customer-service-plan
+                  - listitem [ref=e448]:
+                    - link "Trợ Lý Ảo Của Vietnam Airlines" [ref=e449] [cursor=pointer]:
+                      - /url: /vn/vi/support/chatbot
+                  - listitem [ref=e450]:
+                    - link "Ứng Dụng Di Động" [ref=e451] [cursor=pointer]:
+                      - /url: /vn/vi/support/intro-mobile-app
+            - generic [ref=e454]:
+              - generic [ref=e457]:
+                - heading "Pháp Lý" [level=6] [ref=e461]
+                - list [ref=e463]:
+                  - listitem [ref=e464]:
+                    - link "Các Điều Kiện & Điều Khoản" [ref=e465] [cursor=pointer]:
+                      - /url: /vn/vi/legal/terms-and-conditions
+                  - listitem [ref=e466]:
+                    - link "Điều Lệ Vận Chuyển" [ref=e467] [cursor=pointer]:
+                      - /url: /vn/vi/legal/conditions-of-carriage
+                  - listitem [ref=e468]:
+                    - link "Điều Kiện Sử Dụng Cookies" [ref=e469] [cursor=pointer]:
+                      - /url: /vn/vi/legal/cookies-policy
+                  - listitem [ref=e470]:
+                    - link "Bảo Mật Thông Tin" [ref=e471] [cursor=pointer]:
+                      - /url: /vn/vi/legal/privacy-policy
+                  - listitem [ref=e472]:
+                    - link "Quy Chế Hoạt Động Sàn TMĐT" [ref=e473] [cursor=pointer]:
+                      - /url: /vn/vi/legal/quy-che-hoat-dong-san-tmdt
+              - generic [ref=e476]:
+                - heading "Thông Tin Hữu Ích" [level=6] [ref=e480]
+                - list [ref=e482]:
+                  - listitem [ref=e483]:
+                    - link "Hợp Tác Với Chương Trình Lotusmiles" [ref=e484] [cursor=pointer]:
+                      - /url: /vn/vi/lotusmiles/partnership/introduction
+                  - listitem [ref=e485]:
+                    - link "Tạp Chí Heritage" [ref=e486] [cursor=pointer]:
+                      - /url: https://heritagevietnamairlines.com/
+                      - text: Tạp Chí Heritage
+                      - img [ref=e488]
+                  - listitem [ref=e492]:
+                    - link "Cẩm Nang Du Lịch" [ref=e493] [cursor=pointer]:
+                      - /url: /vn/vi/plan-book/travel/travel-guide
+                  - listitem [ref=e494]:
+                    - link "Quảng Cáo Với Vietnam Airlines" [ref=e495] [cursor=pointer]:
+                      - /url: /vn/vi/sites/Quang-cao-cung-Vietnam-Airlines
+                - generic [ref=e497]:
+                  - heading "Vận Tải Hàng Hóa" [level=6] [ref=e501]
+                  - list [ref=e503]:
+                    - listitem [ref=e504]:
+                      - link "Trang Web Hàng Hoá" [ref=e505] [cursor=pointer]:
+                        - /url: /vn/vi/cargo
+          - generic [ref=e508]:
+            - heading "Giải thưởng của Vietnam Airlines" [level=6] [ref=e518]:
+              - link "Giải thưởng của Vietnam Airlines" [ref=e519] [cursor=pointer]:
+                - /url: https://www.vietnamairlines.com/awards
+            - generic [ref=e525]:
+              - img "world travel awards" [ref=e531]
+              - generic [ref=e534]:
+                - img "capa aviation awards" [ref=e540]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img "Trip advisor"
+                - img "skyteam" [ref=e546]
+          - generic [ref=e549]:
+            - generic [ref=e552]:
+              - img "Vietnam Airlines ,Pacific Airlines ,VASCO Logo" [ref=e555]
+              - generic [ref=e557]:
+                - link "Youtube" [ref=e560] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/VietnamAirlines
+                  - img "Youtube" [ref=e561]
+                - link "intagram" [ref=e564] [cursor=pointer]:
+                  - /url: https://www.instagram.com/vietnamairlines/
+                  - img "intagram" [ref=e565]
+                - link "facebook" [ref=e568] [cursor=pointer]:
+                  - /url: https://www.facebook.com/VietnamAirlines/
+                  - img "facebook" [ref=e569]
+                - link "tiktok" [ref=e572] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@vietnamairlines
+                  - img "tiktok" [ref=e573]
+                - link "zalo" [ref=e576] [cursor=pointer]:
+                  - /url: https://zalo.me/3149253679280388721
+                  - img "zalo" [ref=e577]
+                - link "x social" [ref=e580] [cursor=pointer]:
+                  - /url: https://x.com/VietnamAirlines
+                  - img "x social" [ref=e581]
+              - link "skyteam" [ref=e584] [cursor=pointer]:
+                - /url: /vn/vi/skyteam
+                - img "skyteam" [ref=e585]
+              - generic [ref=e587]:
+                - button "Sơ đồ trang" [ref=e591] [cursor=pointer]:
+                  - generic [ref=e593]: Sơ đồ trang
+                - button "Liên hệ mua vé" [ref=e597] [cursor=pointer]:
+                  - generic [ref=e599]: Liên hệ mua vé
+                - paragraph [ref=e603]: Cài đặt cookies
+            - generic [ref=e606]:
+              - paragraph [ref=e610]:
+                - generic [ref=e611]:
+                  - text: © 2025 Vietnam Airlines JSC
+                  - text: Tổng công ty Hàng không Việt Nam - CTCP. Số 200 Nguyễn Sơn, Phường Bồ Đề, Hà Nội.
+                  - text: "Điện thoại: (+84-24) 38272289. Fax: (+84-24) 38722375"
+                  - text: Giấy chứng nhận đăng ký doanh nghiệp, mã số doanh nghiệp 0100107518, đăng ký lần đầu ngày 30/6/2010, đăng ký thay đổi lần thứ 10 ngày 24/7/2025, cấp bởi Sở Tài chính Thành phố Hà Nội.
+              - link "Đã thông báo BCT" [ref=e617] [cursor=pointer]:
+                - /url: http://online.gov.vn/Home/AppDetails/384
+                - img "Đã thông báo BCT" [ref=e618]
+              - link "Đăng ký BCT" [ref=e624] [cursor=pointer]:
+                - /url: http://online.gov.vn/Home/AppDetails/791
+                - img "Đăng ký BCT" [ref=e625]
+              - link "PCI" [ref=e631] [cursor=pointer]:
+                - /url: https://certificate.crossbowlabs.com/b0b2ad28-aa42-4eb1-ab9d-e162ebfe3da7#acc.SFpc8wiW
+                - img "PCI" [ref=e632]
+            - link "QR code to download the Vietnam Airlines app on App Store, Google Play" [ref=e638] [cursor=pointer]:
+              - /url: /vn/vi/app
+              - img "QR code to download the Vietnam Airlines app on App Store, Google Play" [ref=e639]
+  - iframe [ref=e642]:
+    - generic [ref=f3e2]:
+      - generic [ref=f3e5]:
+        - link "Privacy" [ref=f3e6] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/privacy/
+        - text: "-"
+        - link "Terms" [ref=f3e7] [cursor=pointer]:
+          - /url: https://www.google.com/intl/en/policies/terms/
+      - generic [ref=f3e8]:
+        - generic [ref=f3e9]:
+          - text: protected by
+          - strong [ref=f3e10]: reCAPTCHA
+        - generic [ref=f3e11]: "-"
