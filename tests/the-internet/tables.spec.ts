@@ -24,10 +24,7 @@ test.describe('Table1 Tests', () => {
     });
 
  
- });
-
-       
-
+     });
 
     test('verify full name of max due person', async ({ page }) => {
         //find the max due amount 
@@ -47,8 +44,6 @@ test.describe('Table1 Tests', () => {
         const minDueValue = tableData[0].due;
         const minDuePerson = tableData.filter(person => person.due === minDueValue);
         const fullName = minDuePerson.map(person => `${person.firstName} ${person.lastName}`);
-        expect(fullName).toEqual(['John Smith', 'Tim Conway']);
-  
-    
+        expect(fullName).toEqual(['John Smith', 'Tim Conway']);  
 });
 });    
